@@ -1,0 +1,108 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.input-file-section {
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+label {
+    display: block;
+    width: 150px;
+    background: #e3363c;
+    color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+.profile-container {
+    position: relative;
+    width: 600px;
+    height: 550px;
+}
+
+#profile-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.glasses {
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    width: 300px;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 670px;
+    margin-top: -450px;
+    gap: 20px;
+}
+
+.animated-image {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.animated-image:hover {
+    transform: scale(1.1);
+}
+.add-minus{
+   margin-left: 30px;
+   margin-top: -30px;
+}
+.add{
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.minus{
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.position{
+    margin-left: 360px;
+    margin-top: -40px;
+}
+.btn-1{
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-2{
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-3, .btn-4 {
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    font-size: 18px;
+    cursor: pointer;
+}
+    

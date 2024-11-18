@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glasses Overlay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-file-section" id="box">
+        <div class="child-file-section">
+            <div class="profile-container">
+
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" id="profile-pic" width="600" height="550">
+                
+
+                <img id="glasses-overlay" class="glasses" src="" alt="Glasses" style="display: none;">
+            </div>
+            <label for="input-file">Upload Image</label>
+            <input class="main-file" type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <img onclick="changeGlasses('glass-1.png')" height="120px" width="180px" src="./glass-1.png" alt="Glasses 1" class="animated-image" />
+        <img onclick="changeGlasses('glass-2.png')" height="120px" width="180px" src="./glass-2.png" alt="Glasses 2" class="animated-image" />
+        <img onclick="changeGlasses('glass-4.png')" height="120px" width="180px" src="./glass-4.png" alt="Glasses 3" class="animated-image" />
+        <img onclick="changeGlasses('glass-5.png')" height="120px" width="180px" src="./glass-5.png" alt="Glasses 4" class="animated-image" />
+        <img onclick="changeGlasses('glass-6.png')" height="120px" width="180px" src="./glass-6.png" alt="Glasses 5" class="animated-image" />
+        <img onclick="changeGlasses('glass-7.png')" height="120px" width="180px" src="./glass-7.png" alt="Glasses 6" class="animated-image" />
+        <img onclick="changeGlasses('glass-8.png')" height="120px" width="180px" src="./glass-8.png" alt="Glasses 7" class="animated-image" />
+        <img onclick="changeGlasses('glass-9.png')" height="120px" width="180px" src="./glass-9.png" alt="Glasses 8" class="animated-image" />
+        <img onclick="changeGlasses('glass-10.png')" height="120px" width="180px" src="./glass-10.png" alt="Glasses 9" class="animated-image" />
+        <img onclick="changeGlasses('glass-11.png')" height="120px" width="180px" src="./glass-11.png" alt="Glasses 10" class="animated-image" />
+        <img onclick="changeGlasses('glass-12.png')" height="120px" width="180px" src="./glass-12.png" alt="Glasses 11" class="animated-image" />
+        <img onclick="changeGlasses('glass-13.png')" height="120px" width="180px" src="./glass-13.png" alt="Glasses 12" class="animated-image" />
+    </div>
+    
+<div class="add-minus">
+    <button class="add" onclick="adjustGlassesSize('plus')">+</button>
+    <button  id="fontsize">250</button>
+    <button class="minus" onclick="adjustGlassesSize('minus')">-</button>
+</div>
+
+<div class="position">
+    <button class="btn-1" onclick="PositionTop()">Top</button>
+    <button class="btn-2" onclick="PositionBottom()">Bottom</button>
+    <button class="btn-3" onclick="PositionLeft()">Left</button>
+    <button class="btn-4" onclick="PositionRight()">Right</button>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
